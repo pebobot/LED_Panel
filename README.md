@@ -2,7 +2,7 @@
 
 Project to use the RGB LED panels donated to Syn Shop
 
-The current code is based on a Teensy 3.2.  The project will need something much more powerful because the Teensy isn't able to update the display fast enough.
+The current code is based on a Teensy 3.2.  The project will need something much more powerful because the Teensy isn't able to update the display fast enough.  LED_Write_Buffer_Teensy demonstrates the problem.  The Teensy can't PWM the display fast enough to avoid flickering.
 
 # Basics
 
